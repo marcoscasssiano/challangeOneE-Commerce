@@ -1,0 +1,111 @@
+.info_container {
+    display: flex;
+    flex-direction: column;
+    background: #EAF2FD;
+    padding: 32px 16px 16px;
+}
+
+.info_empresa {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.empresa_imagem {
+    margin-bottom: 16px;
+}
+
+.lista_empresa li {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.form_group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 16px 0; */
+}
+
+.form_group input {
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
+
+.form_group textarea {
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
+
+.form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+    width: 151px;
+    height: 40px;
+    background: #2A7AE4;
+    border: none;
+    color: #EAF2FD;
+}
+
+@media  (min-width: 640px) {
+    .info_container {
+        flex-direction: row;
+        padding: 32px 32px 0 32px;
+    }
+    
+    .info_empresa {
+        text-align: left;
+        width: 40%;
+    }
+    
+    .lista_empresa li {
+        margin-top: 24px;
+    }
+    
+    .form {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1065px) {
+
+    .info_container {
+        padding: 64px 152px 55px 152px;
+        text-align: left;
+        margin: 0;
+        gap: 112px;
+    }
+    
+    .info_empresa {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: -23px;
+    }
+
+    .empresa_imagem {
+        margin-top: 30px;
+    }
+
+    .form {
+        width: 45%;
+    }    
+}

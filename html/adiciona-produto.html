@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/home/styles.css">
+    <link rel="stylesheet" href="../styles/adicionar-produto/adicionar-cabecalho.css">
+    <link rel="stylesheet" href="../styles/adicionar-produto/adicionar-main.css">
+    <link rel="stylesheet" href="../styles/adicionar-produto/adicionar-info_formulario.css">
+    <link rel="stylesheet" href="../styles/adicionar-produto/adicionar-footer.css">
+    
+    <title>Alura Geek - Adiciona Produto</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+    
+            <a href="../index.html"><img id="alura_logo" src="../img/header_banner/alura_geek_logo.png" alt="Home"></a>
+            
+            <div class="buscador">
+                <input type="text" placeholder="O que você deseja encontrar?">
+                <button id="botao_buscar"><img id="imagem_vector_1" src="../img/header_banner/vector.png" alt="Buscador"></button>
+            </div>
+
+            <a href=""><button id="botao_menu">Menu administrador</button></a>
+           
+            <button id="botao_externo"><img id="imagem_vector_2" src="../img/header_banner/vector.png" alt="Buscador"></button>
+
+        </div>
+    </header>
+
+    <main class="conteudo_principal">
+
+        <section class="adicionar-produto">
+
+            <h2>Adicionar novo produto</h2>
+            
+            <input class="url_imagem" type="email" placeholder="URL da imagem">
+            <input class="categoria" type="text" placeholder="Categoria">
+            <input class="nome_produto" type="text" placeholder="Nome do produto">
+            <input class="preco_produto" type="text" placeholder="Preço do produto">
+            <textarea name="" class="textarea" cols="30" rows="10" placeholder="Descripção do produto" autocomplete="off" rows="7" required=""></textarea>
+            <button>Adicionar produto</button>
+        </section>
+
+        <section class="info_formulario">
+            
+                <div class="info_container">
+                    
+                    <div class="info_empresa"> 
+        
+                        <div class="empresa_imagem">
+                            <img src="../img/header_banner/alura_geek_logo.png" alt="">
+                        </div>
+        
+                        <ul class="lista_empresa">
+                            <li><a>Quem somos nós</a></li>
+                            <li><a>Política de privacidade</a></li>
+                            <li><a>Programa de fidelidade</a></li>
+                            <li><a>Nossas Lojas</a></li>
+                            <li><a>Quero ser franqueado</a></li>
+                            <li><a>Anuncie aqui</a></li>
+                        </ul>
+        
+                    </div>
+        
+                    <div class="form">
+        
+                        <p><strong>Fale conosco</strong></p>
+        
+                        <div class="form_group">
+                            <input autocomplete="off" id="name" type="text" name="name" required>
+                            <span>Nome</span>
+                        </div>
+        
+                        <div class="form_group">
+                            <textarea autocomplete="off" id="textarea" rows="7" required></textarea>
+                            <span>Messagem</span>
+                        </div>
+        
+                        <button>Enviar mensagem</button>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+    </main>
+
+    <footer class="pie_de_pagina">
+        <p>Desenvolvido por Marcos Cassiano</p>
+        <p>2022</p>
+        
+    </footer>
+
+</body>
+</html>
